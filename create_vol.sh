@@ -1,5 +1,6 @@
 #!/bin/bash
 #Modifying script to create 4 EBS volumes
+#extra comment
 for i in {1..4}
 do
 echo "Creating Volume No: $i"
