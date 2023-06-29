@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @girinvs50
+- 👋 Hi, I’m Giridhar Nagavarapu
 - 👀 I’m interested in Linux, DevOps, Kubernetes, Docker, Bash Scripting, Git, GitHub, Ansible, Puppet, Terraform, Jenkins, Satellite, Redhat IDM
 - 🌱 I’m currently learning Devops, Kubernetes, Terraform, Jenkins
 - 💞️ I’m looking to collaborate on Ansible, Jenkins, Terraform.
