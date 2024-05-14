@@ -1,0 +1,11 @@
+node {
+  stage('SCM') {
+    checkout scm
+  }
+  stage('SonarQube Analysis') {
+    def mvn = tool 'maven';
+    withSonarQubeEnv() {
+      sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Gousto_alaspark_ba8a5363-9d80-464d-b9b6-e9be23f9322a -Dsonar.projectName='alaspark'"
+    }
+  }
+}
