@@ -16,9 +16,9 @@ node{
         }
     }
 
-   stage('Email Notification'){
-      mail bcc: '', body: '''Hi Welcome to jenkins email alerts
-      Thanks
-      Giri''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'giridhar.nagavarapu@gousto.co.uk'
-   }
+//   stage('Email Notification'){
+//      mail bcc: '', body: '''Hi Welcome to jenkins email alerts
+//      Thanks
+//      Giri''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'giridhar.nagavarapu@gousto.co.uk'
+//   }
 }
